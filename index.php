@@ -17,7 +17,7 @@
       <div class="container-bootstrap d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
           <img src="https://static.vecteezy.com/system/resources/previews/000/642/323/non_2x/search-job-icon-vector.jpg" alt="Site Logo" class="me-2">
-          <h1 class="h4 mb-0">Self Proclaimed Programmer</h1>
+          <h1 class="h4 mb-0">Career Link Up</h1>
         </div>
         <nav>
           <ul class="nav" id="navBarItem">

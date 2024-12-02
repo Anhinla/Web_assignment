@@ -6,6 +6,9 @@
     .card-body {
       flex-grow: 1; /* Ensures all cards stretch equally */
     }
+    .card_row{
+      height: 100%;
+    }
   </style>
 
 <div class="container mt-5">
@@ -13,7 +16,7 @@
     <div class="row">
       <!-- Team Member 1 -->
       <div class="col-md-3">
-        <div class="card text-center shadow-sm">
+        <div class="card text-center shadow-sm card_row">
           <img src="asset/ThaiAn.jpg" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member 1" style="width: 100px; height: 100px;">
           <div class="card-body">
             <h5 class="card-title">Bùi Phạm Thái An</h5>
@@ -25,7 +28,7 @@
       </div>
       <!-- Team Member 2 -->
       <div class="col-md-3">
-        <div class="card text-center shadow-sm">
+        <div class="card text-center shadow-sm card_row">
           <img src="https://via.placeholder.com/100" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member 2" style="width: 100px; height: 100px;">
           <div class="card-body">
             <h5 class="card-title">Nguyễn Minh Bảo Ân</h5>
@@ -37,7 +40,7 @@
       </div>
       <!-- Team Member 3 -->
       <div class="col-md-3">
-        <div class="card text-center shadow-sm">
+        <div class="card text-center shadow-sm card_row">
           <img src="https://via.placeholder.com/100" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member 3" style="width: 100px; height: 100px;">
           <div class="card-body">
             <h5 class="card-title">Huỳnh Nguyễn Ngọc Anh</h5>
@@ -49,7 +52,7 @@
       </div>
       <!-- Team Member 4 -->
       <div class="col-md-3">
-        <div class="card text-center shadow-sm">
+        <div class="card text-center shadow-sm card_row">
           <img src="https://via.placeholder.com/100" class="card-img-top rounded-circle mx-auto mt-3" alt="Team Member 4" style="width: 100px; height: 100px;">
           <div class="card-body">
             <h5 class="card-title">Nguyễn Hải Đăng</h5>
