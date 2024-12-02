@@ -13,7 +13,7 @@
   </head>
   <body>
     
-    <header class="bg-dark text-white p-3">
+    <header class="bg-dark text-white p-3 fixed-top">
       <div class="container-bootstrap d-flex justify-content-between align-items-center">
         <div class="d-flex align-items-center">
           <img src="https://static.vecteezy.com/system/resources/previews/000/642/323/non_2x/search-job-icon-vector.jpg" alt="Site Logo" class="me-2">
