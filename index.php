@@ -12,8 +12,26 @@
 
   </head>
   <body>
+    
+    <header class="bg-dark text-white p-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/642/323/non_2x/search-job-icon-vector.jpg" alt="Site Logo" class="me-2">
+          <h1 class="h4 mb-0">Self Proclaimed Programmer</h1>
+        </div>
+        <nav>
+          <ul class="nav" id="navBarItem">
+            <li class="nav-item"><a href="index.php?page=home" class="nav-link text-white">Home</a></li>
+            <li class="nav-item"><a href="index.php?page=views_cv" class="nav-link text-white">View CV</a></li>
+            <li class="nav-item"><a href="index.php?page=fill_form" class="nav-link text-white">Make new CV</a></li>
+            <li class="nav-item"><a href="index.php?page=contact_us" class="nav-link text-white">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <!-- Container -->
-    <nav id="header-bar">
+    <!-- <nav id="header-bar">
       <div class="header-nav">
         <img
         id="logo"
@@ -47,9 +65,18 @@
 
       </a>
       </div>
-    </nav>
+    </nav> -->
     <div id="main-content" class =" container mt-5 bg-white p-5 rounded-5">
       <?php include 'controllers/RouteController.php'; ?>
     </div>
+    
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+      <div class="container">
+        <p>&copy; 2024 Group 1. All rights reserved.</p>
+        <a href="#" class="text-white">Privacy Policy</a> |
+        <a href="#" class="text-white">Terms of Service</a>
+      </div>
+    </footer>
+
   </body>
 </html>
