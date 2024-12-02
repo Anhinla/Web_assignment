@@ -1,15 +1,20 @@
 <?php
 // Check if the 'page' parameter exists in the URL
 $page = isset($_GET['page']) ? $_GET['page'] : ''; // Default to 'home'
+$page = isset($_GET['page']) ? $_GET['page'] : ''; // Default to 'home'
 
 // Define the base path for your pages folder
 $base_path = __DIR__ . '/../views/';
+$file_path = '';
 $file_path = '';
 
 switch ($page) {
     case 'home':
         $file_path = $base_path . 'home.php';
+        $file_path = $base_path . 'home.php';
         break;
+    case 'views_cv':
+        $file_path = $base_path . 'show_cv/show_cv.php';
     case 'views_cv':
         $file_path = $base_path . 'show_cv/show_cv.php';
         break;
