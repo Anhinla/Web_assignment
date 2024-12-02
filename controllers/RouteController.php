@@ -8,13 +8,13 @@ $file_path = '';
 
 switch ($page) {
     case 'home':
-        $file_path = $base_path . 'home.php';
+        $file_path = $base_path . 'home/home.php';
         break;
     case 'views_cv':
         $file_path = $base_path . 'show_cv/show_cv.php';
         break;
     case 'contact_us':
-        $file_path = $base_path . 'contact_us.php';
+        $file_path = $base_path . 'contact_us/contact_us.php';
         break;
     case 'fill_form':
         $file_path = $base_path . 'cv_form/cv_form.php';
